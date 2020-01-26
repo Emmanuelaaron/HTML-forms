@@ -1,0 +1,28 @@
+button {
+    background-color: #0077c5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    color: rgb(250, 251, 252);
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.blue {
+    color: #0077c5;
+}
