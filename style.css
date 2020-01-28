@@ -160,18 +160,6 @@ footer div {
     padding-bottom: 5px;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-footer button {
-    margin-left: 280px;
-    background-color: #747474;
-    width: 130px;
-    height: 45px;
-}
 
 .more {
     margin-top: -15px;
