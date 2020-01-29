@@ -25,7 +25,7 @@
         <span class="minor_logo"></span>
     </div>
     <fieldset>
-        <form action="">
+        <form action="/signup" method="POST">
             <div class="upper">
                 <p><span>Create an Intuit account</span></p>
                 <p class="account">One account for everything Intuit, including Mint.</p>
@@ -34,17 +34,17 @@
                 </a>
             </div>
             <div class="email">
-                <label>Email address</label>
-                <input type="email" name="email">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email">
             </div>
             <div class="phone">
-                <label>Phone (recommended)</label>
-                <input type="tel" name="phone_number">
+                <label for="phone_number">Phone (recommended)</label>
+                <input type="tel" name="phone_number" id="phone_number">
                 <p>Standard call, messaging or data rates may apply.</p>
             </div>
             <div class="password">
-                <label>Password
-                    <input type="password" name="phone">
+                <label for="password">Password
+                    <input type="password" name="phone" id="password">
                     <span class="input_img"></span>
                 </label>
 
@@ -59,7 +59,6 @@
             <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
         </div>
         <div class="lower_bottom">
-
         </div>
     </fieldset>
     <footer>
@@ -71,7 +70,6 @@
                 notice.
             </span>
         </div>
-
     </footer>
 </body>
 
